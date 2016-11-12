@@ -129,7 +129,7 @@ function handleAsset(req, res, next) {
 
 function loadConfig(configPath) {
 	var config = {
-		root: path.join(__dirname, '..', 'assets'),
+		root: path.join(__dirname, '..', 'base'),
 		port: 9000
 	};
 
