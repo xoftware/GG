@@ -1,4 +1,4 @@
-[submodule "gdk/sdk/emscripten"]
+[submodule "gdk/sdk/emscripten-1.13"]
 	path = gdk/sdk/emscripten-1.13
 	url = http://github.com/xoftware-goodgame/emscripten-1.13
 [submodule "gdk/src/ggx3"]
