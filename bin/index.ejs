@@ -99,7 +99,7 @@
 			window.addEventListener('resize', resizeViewport);
 
 			// merge default args with query string args
-			var args = ['+set', 'fs_cdn', '<%= content %>','+set','com_basegame','baseGG','+set','com_gamename','GoodGame','+set','fs_game','InstaUnlagged'];
+			var args = ['+set', 'fs_cdn', '<%= content %>','+set','com_gamename','GoodGame','+set','com_basegame','baseGG','+set','fs_game','InstaUnlagged'];
 			args.push.apply(args, getQueryCommands());
 			console.log(args);
 			ioq3.callMain(args);
