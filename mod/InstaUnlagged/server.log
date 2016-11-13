@@ -10,3 +10,9 @@
   2:16 Kill: 1022 0 22: <world> killed UnnamedPlayer by MOD_TRIGGER_HURT
   2:45 Kill: 1022 0 22: <world> killed UnnamedPlayer by MOD_TRIGGER_HURT
   3:02 ClientDisconnect: 0
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_cdn\192.168.44.130:9000\com_gamename\GoodGame\version\ioq3 1.36_GIT_4f7d7bf-2014-02-01 emscripten- Feb 23 2014\com_protocol\71\dmflags\0\fraglimit\7\timelimit\7\g_gametype\1\mapname\new17-wip\sv_privateClients\0\sv_hostname\My Stellarena Server\sv_maxclients\10\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_allowDownload\1\g_maxGameClients\0\insta_allowVote\1\insta_spawnWait\0\insta_roundlimit\0\insta_randomizeteams\1\insta_majoritywins\0\insta_perteam\1\insta_splashDamage\10\insta_fallingdamage\0\insta_selfdamage\0\insta_shotgunSpread\700\insta_DisplayFireWarning\0\insta_protectionFire\0\insta_protection\3\insta_railjumping\1\g_allowVote\1\capturelimit\7\gamename\InstaUnlagged\g_needpass\0\g_InstaVersion\1.0\g_InstaWeapon\Railgun
+  0:00 Warmup:
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \fs_cdn\localhost:9000\com_gamename\GoodGame\version\ioq3 1.36_GIT_4f7d7bf-2014-02-01 emscripten- Feb 23 2014\com_protocol\71\dmflags\0\fraglimit\7\timelimit\7\g_gametype\1\mapname\new17-wip\sv_privateClients\0\sv_hostname\My Stellarena Server\sv_maxclients\10\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_allowDownload\1\capturelimit\7\g_allowVote\1\insta_railjumping\1\insta_protection\3\insta_protectionFire\0\insta_DisplayFireWarning\0\insta_shotgunSpread\700\insta_selfdamage\0\insta_fallingdamage\0\insta_splashDamage\10\insta_perteam\1\insta_majoritywins\0\insta_randomizeteams\1\insta_roundlimit\0\insta_spawnWait\0\insta_allowVote\1\g_maxGameClients\0\gamename\InstaUnlagged\g_needpass\0\g_InstaVersion\1.0\g_InstaWeapon\Railgun
+  0:00 Warmup:
