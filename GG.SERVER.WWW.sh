@@ -1,4 +1,4 @@
-node bin/ioq3ded.js 		\
+node bin/ggx3-server.js 	\
  +set dedicated 2		\
  +set fs_cdn 192.168.44.130:9000\
  +set com_gamename "GoodGame" 	\
