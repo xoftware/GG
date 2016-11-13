@@ -7,3 +7,6 @@
 [submodule "gdk/sdk/emscripten-1"]
 	path = gdk/sdk/emscripten-1
 	url = http://github.com/xoftware-goodgame/emscripten
+[submodule "gdk/suite/GGmap2build"]
+	path = gdk/suite/GGmap2build
+	url = http://github.com/xoftware-goodgame/GGmap2build

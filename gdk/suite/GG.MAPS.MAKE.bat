@@ -1,0 +1,1 @@
+start q3map2build/q3map2build.exe
