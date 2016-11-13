@@ -1,6 +1,9 @@
 [submodule "gdk/sdk/emscripten"]
-	path = gdk/sdk/emscripten
+	path = gdk/sdk/emscripten-1.13
 	url = http://github.com/xoftware-goodgame/emscripten-1.13
 [submodule "gdk/src/ggx3"]
 	path = gdk/src/ggx3
 	url = http://github.com/xoftware-goodgame/ggx3
+[submodule "gdk/suite/ggradiant-1.5"]
+	path = gdk/suite/ggradiant-1.5
+	url = http://github.com/xoftware-goodgame/ggradiant-1.5
