@@ -1,134 +1,54 @@
-# QuakeJS
+# GoodGame
+>
 
-QuakeJS is a port of [ioquake3](http://www.ioquake3.org) to JavaScript with the help of [Emscripten](http://github.com/kripken/emscripten).
-
-To see a live demo, check out [http://www.quakejs.com](http://www.quakejs.com).
-
-
-## Building binaries
-
-As a prerequisite, you'll need to have a working build of [Emscripten](http://github.com/kripken/emscripten), then:
-
-```shell
-cd quakejs/ioq3
-make PLATFORM=js EMSCRIPTEN=<path_to_emscripten>
-```
-
-Binaries will be placed in `ioq3/build/release-js-js/`.
-
-To note, if you're trying to run a dedicated server, the most up to date binaries are already included in the `build` directory of this repository.
+Thank you, GitHub, for hosting and so much more!
 
 
-## Running locally
+When I was a boy, my mother was a Catholic, and my father brought me Quake 3. 
 
-Install the required node.js modules:
+No matter which one I chose, I was bound to lose. The two options put before me were really an illusion. Both were one in the same. The devil instituted the Catholic church to ensnare religious people, while at the same time offering the atheists theirs. People would come running, from one towards the other, expecting it to lay the better path. 
 
-```shell
-npm install
-```
+Rather than descend into the temple of blasphemy, I descended into the temple of blasphemy. Rather than animate motions as a hollow man trapped, I just animated motions as a hollow man trapped. Rather than bow before the grandiose arena of the antichrist, I bowed before the grandiose arena of the antichrist.
 
-Set `content.quakejs.com` as the content server:
+    "And call no man your father upon the earth: for one is your Father, which is in heaven." -- Matthew 23:9
 
-```shell
-echo '{ "content": "content.quakejs.com" }' > bin/web.json
-```
-
-Run the server:
-
-```shell
-node bin/web.js --config ./web.json
-```
-
-Your server is now running on: [http://0.0.0.0:8080](http://0.0.0.0:8080)
+Christ is not about vain traditions, lofty prayers. He's not about following after a meaningless life. Nor exalting ourselves as holy and striving to live up to His law, for the sake of it, or even by our own means. He's not about us earning our way into Heaven, or our own fulfilment, or, what's most of all, even love. 
 
 
-## Running a dedicated server
+-------
 
-If you'd like to run a dedicated server, the only snag is that unlike regular Quake 3, you'll need to double check the content server to make sure it supports the mod / maps you want your server to run (which you can deduce from the [public manifest](http://content.quakejs.com/assets/manifest.json)).
 
-Also, networking in QuakeJS is done through WebSockets, which unfortunately means that native builds and web builds currently can't interact with eachother.
+The true definition of sorrow comes from the true definition of joy. God is truly so remarkable. He is who He is. That those who do not have Him bring sorrow to those who do. Oh, we would cry, that the Lord would open John Carmack's and the men at ID Softwares eyes. To see a man so far from God is truly why Jesus cried and forgave for those who persecuted and killed Him. 
 
-Otherwise, running a dedicated server is similar to running a dedicated native server command-line wise.
-
-Setup a config for the mod you'd like to run, and startup the server with `+set dedicated 2`:
-
-```shell
-node build/ioq3ded.js +set fs_game <game> +set dedicated 2 +exec <server_config>
-```
-
-If you'd just like to run a dedicated server that isn't broadcast to the master server:
-
-```shell
-node build/ioq3ded.js +set fs_game <game> +set dedicated 1 +exec <server_config>
-```
-
-### baseq3 server, step-by-step
-
-*Note: for the initial download of game files you will need a server wth around 1GB of RAM. If the server exits with the message `Killed` then you need more memory*
-
-On your server clone this repository. `cd` into the `quakejs` clone and run the following commands:
+The church is not where men do what is condemned by God's Word. The catholic popes even banned the Bible and hence literacy from the everyday people, like you and me. 
 
 ```
-git submodule update --init
-npm install
-node build/ioq3ded.js +set fs_game baseq3 +set dedicated 2
+Then the Pharisees and scribes asked him, 
+Why walk not thy disciples according to the tradition of the elders, 
+but eat bread with unwashen hands?
+
+He answered and said unto them, 
+Well hath Esaias prophesied of you hypocrites, 
+as it is written, 
+This people honoureth me with their lips, 
+but their heart is far from me.
+
+Howbeit in vain do they worship me, 
+teaching for doctrines the commandments of men.
+--Mark 7:5-7
 ```
 
-After running the last command continue pressing Enter until you have read the EULA, and then answer the `Agree? (y/n)` prompt. The base game files will download. When they have finished press Ctrl+C to quit the server.
+God condemns evil because He loves us. The church, according to God, is just people who belive in the truth, the way and the life, Jesus as their saviour. And as for the rest, we follow because we truly cherish Him, for He *is* the truth! 
 
-In the newly created `base/baseq3` directory add a file called `server.cfg` with the following contents (adapted from [Quake 3 World](http://www.quake3world.com/q3guide/servers.html)):
+No matter who we are, all the options we can get ourselves into are evil. But Jesus saves... and He will.
 
-```
-seta sv_hostname "CHANGE ME"
-seta sv_maxclients 12
-seta g_motd "CHANGE ME"
-seta g_quadfactor 3
-seta g_gametype 0
-seta timelimit 15
-seta fraglimit 25
-seta g_weaponrespawn 3
-seta g_inactivity 3000
-seta g_forcerespawn 0
-seta rconpassword "CHANGE_ME"
-set d1 "map q3dm7 ; set nextmap vstr d2"
-set d2 "map q3dm17 ; set nextmap vstr d1"
-vstr d1
-```
 
-replacing the `sv_hostname`, `g_motd` and `rconpassword`, and any other configuration options you desire.
+-------
 
-You can now run the server with 
 
-```
-node build/ioq3ded.js +set fs_game baseq3 +set dedicated 2 +exec server.cfg
-```
+In this game, there is a cheat code to go into "God Mode." Well, let's go into "God Mode" for a second. You've heard it said before, "I only want what's best for you." We were made in God's image, and thusly make avatars in ours. Imagine if we could take you and expand you to infinite proportions, unlimited wisdom, infinite power, and strength. Then you could really look at your children and cousins and brothers and loved ones and say "I only want what's best for you." Well, that's exactly how God is. God, however, is perfect in *every* way, not to mention love, and He only wants what's best for us, Himself. 
 
-and you should be able to join at http://www.quakejs.com/play?connect%20SERVER_IP:27960, replacing `SERVER_IP` with the IP of your server.
 
-## Running a content server
 
-QuakeJS loads assets directly from a central content server. A public content server is available at `content.quakejs.com`, however, if you'd like you run your own (to perhaps provide new mods) you'll need to first repackage assets into the format QuakeJS expects.
 
-### Repackaging assets
-
-When repackaging assets, an asset graph is built from an incoming directory of pk3s, and an optimized set of map-specific pk3s is output to a destination directory.
-
-To run this process:
-
-```shell
-node bin/repak.js --src <assets_src> --dest <assets>
-```
-
-And to launch the content server after the repackaging is complete:
-
-```shell
-node bin/content.js
-```
-
-Note: `./assets` is assumed to be the default asset directory. If you'd like to change that, you'll need to modify the JSON configuration used by the content server.
-
-Once the content server is available, you can use it by launching your local or dedicated server with `+set fs_cdn <server_address>`.
-
-## License
-
-MIT
+Just as God has made me new, I am aiming to make this game new.
